@@ -1,0 +1,20 @@
+.row{
+    display: flex;
+}
+
+.block{
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.block[value='1']{
+    background-image: url('./assets/binance.png');
+    background-size: cover;
+}
+
+.block[value='0']{
+    background-image: url('./assets/btc.png');
+    background-size: cover;
+}
